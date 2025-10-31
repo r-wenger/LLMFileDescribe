@@ -1,0 +1,20 @@
+# This file contains metadata for your plugin.
+
+[general]
+name=LLMFileDescribe
+qgisMinimumVersion=3.0
+description=Describe geographic files using a local LLM (Ollama)
+version=0.1
+author=Romain Wenger
+email=romain.wenger@live-cnrs.unistra.fr
+
+about=This plugin lets you select a vector (SHP, GPKG) or raster file and obtain a concise description by summarizing its contents with a locally hosted Ollama LLM. It inspects the fields, row samples or raster metadata, computes basic raster statistics and bounding box coordinates, and then queries the model to suggest what the dataset contains. A response language can be selected from the interface.
+
+tracker=https://github.com/r-wenger/LLMFileDescribe/issues
+repository=https://github.com/r-wenger/LLMFileDescribe
+
+tags=LLM, geospatial, description
+homepage=https://github.com/r-wenger/LLMFileDescribe
+category=Plugins
+icon=icon.png
+experimental=True
